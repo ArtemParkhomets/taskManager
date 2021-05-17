@@ -1,0 +1,92 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap'); */
+*{
+    margin:0;
+    padding:0;
+    /* font-family: 'Playfair Display' ; */
+    /* font-style: normal; */
+}
+body{
+    background-color: gainsboro;
+}
+.input_std{
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+.input_std_sumbit{
+    text-align: center;
+    
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+   
+}
+main{
+    margin:0 auto;
+    width: 85%;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.table__row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.table__row:first-child{
+    border-top: 1px solid black;
+
+}
+.cell{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+    min-height: 5vh;
+    /* font-family:"ZenDots" !important; */
+}
+.cell:first-child{
+    border-left: 1px solid black;
+
+}
+.table__head > .cell {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#row_example {
+    display: none !important;
+}
+.cell > input {
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.cell > textarea{
+    border: none;
+}
+.textareacss{
+    width: 100% !important;
+    min-width: 100% !important;;
+}
+/* cell */
+
+.cell__time{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+.cell__time > input{
+    width: 10%;
+    margin: 0 5px;
+}
